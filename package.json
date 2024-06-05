@@ -1,0 +1,37 @@
+{
+  "name": "zap-fetch",
+  "version": "0.0.0",
+  "description": "Fetch wrapper made for simplicity",
+  "license": "MIT",
+  "type": "module",
+  "repository": "briojs/zap",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "unbuild",
+    "lint": "eslint . && biome check .",
+    "lint:fix": "automd && eslint . --fix && biome check --apply .",
+    "format": "biome format --write",
+    "test": "vitest",
+    "prepack": "bun run build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.0",
+    "@types/bun": "latest",
+    "unbuild": "^2.0.0",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": { "ufo": "^1.5.3" }
+}
