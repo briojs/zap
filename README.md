@@ -1,4 +1,4 @@
-## Ndst
+## ⚡ Zap
 
 [![npm version](https://img.shields.io/npm/v/zap-fetch?color=yellow)](https://npmjs.com/package/zap-fetch)
 [![npm downloads](https://img.shields.io/npm/dm/zap-fetch?color=yellow)](https://npmjs.com/package/zap-fetch)
