@@ -1,5 +1,7 @@
 ## ⚡ Zap
 
+> This is a modified version of [ofetch](https://github.com/unjs/ofetch). Mostly added method for every method, and context is returned instead of response itself.
+
 [![npm version](https://img.shields.io/npm/v/zap-fetch?color=yellow)](https://npmjs.com/package/zap-fetch)
 [![npm downloads](https://img.shields.io/npm/dm/zap-fetch?color=yellow)](https://npmjs.com/package/zap-fetch)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/zap-fetch?color=yellow)](https://bundlephobia.com/package/zap-fetch)
